@@ -1,0 +1,111 @@
+{
+  "clients": [
+    {
+      "ClientID": "client-1",
+      "Name": "Acme Corp",
+      "PriorityLevel": 5,
+      "RequestedTaskIDs": ["task-1", "task-2"],
+      "GroupTag": "enterprise",
+      "AttributesJSON": {
+        "budget": 50000,
+        "deadline": "2024-12-31",
+        "contact": "john@acme.com"
+      }
+    },
+    {
+      "ClientID": "client-2",
+      "Name": "Tech Solutions Ltd",
+      "PriorityLevel": 3,
+      "RequestedTaskIDs": ["task-3"],
+      "GroupTag": "mid-size",
+      "AttributesJSON": {
+        "budget": 25000,
+        "deadline": "2024-06-30",
+        "contact": "sarah@techsol.com"
+      }
+    },
+    {
+      "ClientID": "client-3",
+      "Name": "StartUp Inc",
+      "PriorityLevel": 2,
+      "RequestedTaskIDs": ["task-4", "task-5"],
+      "GroupTag": "startup",
+      "AttributesJSON": {
+        "budget": 10000,
+        "deadline": "2024-03-31",
+        "contact": "mike@startup.com"
+      }
+    }
+  ],
+  "workers": [
+    {
+      "WorkerID": "worker-1",
+      "Name": "Alice Johnson",
+      "Skills": ["JavaScript", "React", "Node.js"],
+      "AvailableSlots": ["9-17", "Mon-Fri"],
+      "MaxLoadPerPhase": 8,
+      "WorkerGroup": "frontend",
+      "HourlyRate": 75
+    },
+    {
+      "WorkerID": "worker-2",
+      "Name": "Bob Smith",
+      "Skills": ["Python", "Django", "PostgreSQL"],
+      "AvailableSlots": ["10-18", "Mon-Fri"],
+      "MaxLoadPerPhase": 6,
+      "WorkerGroup": "backend",
+      "HourlyRate": 80
+    },
+    {
+      "WorkerID": "worker-3",
+      "Name": "Carol Davis",
+      "Skills": ["UI/UX", "Figma", "Adobe XD"],
+      "AvailableSlots": ["8-16", "Mon-Thu"],
+      "MaxLoadPerPhase": 4,
+      "WorkerGroup": "design",
+      "HourlyRate": 70
+    }
+  ],
+  "tasks": [
+    {
+      "TaskID": "task-1",
+      "Name": "Website Redesign",
+      "Category": "frontend",
+      "Duration": 40,
+      "RequiredSkills": ["React", "UI/UX"],
+      "MaxConcurrent": 2
+    },
+    {
+      "TaskID": "task-2",
+      "Name": "API Development",
+      "Category": "backend",
+      "Duration": 60,
+      "RequiredSkills": ["Node.js", "PostgreSQL"],
+      "MaxConcurrent": 1
+    },
+    {
+      "TaskID": "task-3",
+      "Name": "Mobile App",
+      "Category": "mobile",
+      "Duration": 80,
+      "RequiredSkills": ["React Native", "JavaScript"],
+      "MaxConcurrent": 2
+    },
+    {
+      "TaskID": "task-4",
+      "Name": "Database Migration",
+      "Category": "backend",
+      "Duration": 20,
+      "RequiredSkills": ["PostgreSQL", "Python"],
+      "MaxConcurrent": 1
+    },
+    {
+      "TaskID": "task-5",
+      "Name": "Brand Guidelines",
+      "Category": "design",
+      "Duration": 15,
+      "RequiredSkills": ["Figma", "Adobe XD"],
+      "MaxConcurrent": 1
+    }
+  ]
+}

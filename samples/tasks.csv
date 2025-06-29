@@ -1,0 +1,31 @@
+TaskID,TaskName,Category,Duration,RequiredSkills,PreferredPhases,MaxConcurrent
+T001,Frontend Development,Development,3,"JavaScript,React,TypeScript","[1,2,3]",2
+T002,Backend API Design,Development,4,"Python,Django,PostgreSQL","[2,3,4]",1
+T003,UI/UX Design,Design,2,"UI/UX,Figma,Prototyping","[1,2]",3
+T004,Mobile App Development,Development,5,"Mobile,React Native,iOS","[1,2,3,4,5]",1
+T005,Database Architecture,Infrastructure,3,"PostgreSQL,Database Design,Performance","[2,3,4]",2
+T006,DevOps Setup,Infrastructure,2,"DevOps,AWS,Docker,CI/CD","[1,2]",1
+T007,Quality Assurance,Testing,3,"QA,Automation,Testing,Selenium","[3,4,5]",2
+T008,Security Audit,Security,2,"Security,Penetration Testing,OWASP","[4,5]",1
+T009,Data Analytics,Analytics,4,"Data Science,Python,ML,Analytics","[2,3,4,5]",1
+T010,Project Management,Management,5,"Project Management,Agile,Leadership","[1,2,3,4,5]",1
+T011,Technical Documentation,Documentation,2,"Technical Writing,Documentation","[4,5]",3
+T012,Performance Optimization,Development,3,"Full Stack,Performance,Optimization","[3,4]",2
+T013,Marketing Campaign,Marketing,3,"Marketing,SEO,Content,Analytics","[1,2,3]",2
+T014,E-commerce Platform,Development,6,"Full Stack,E-commerce,Payment Systems","[1,2,3,4,5,6]",1
+T015,AI Integration,Development,4,"Machine Learning,AI,Python,TensorFlow","[2,3,4]",1
+T016,Blockchain Development,Development,5,"Blockchain,Solidity,Web3","[1,2,3]",1
+T017,Cloud Migration,Infrastructure,4,"Cloud,AWS,Migration,Architecture","[2,3,4,5]",1
+T018,API Integration,Development,2,"API Design,Integration,REST","[1,2,3,4]",3
+T019,Game Development,Development,8,"Game Development,Unity,C#","[1,2,3,4,5,6,7,8]",1
+T020,IoT Implementation,Development,6,"IoT,Embedded Systems,Sensors","[2,3,4,5]",1
+T021,Data Visualization,Analytics,3,"Data Visualization,D3.js,Charts","[3,4,5]",2
+T022,System Integration,Integration,4,"System Integration,APIs,Middleware","[2,3,4]",1
+T023,Legacy Modernization,Development,7,"Legacy Systems,Modernization,Architecture","[1,2,3,4,5]",1
+T024,Compliance Audit,Compliance,2,"Compliance,GDPR,SOX,Security","[4,5]",1
+T025,User Training,Training,1,"Training,User Experience,Documentation","[5]",5
+T026,Invalid Duration,Development,0,"JavaScript,React","[1,2]",1
+T027,Missing Skills,Development,3,"","[1,2,3]",2
+T028,Invalid Phases,Development,2,"Python,Django","[99,100]",1
+T029,Negative Concurrent,Development,3,"Java,Spring","[2,3]",-1
+T030,Circular Reference Test,Development,2,"Testing,QA","[1,2]",1 
